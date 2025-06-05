@@ -101,3 +101,49 @@ const carrinhoVazio = false; */
 } else {
   console.log("Não é possível finalizar a compra: carrinho vazio.");
 } */
+
+
+  //uso da extrutura switch/case para testar vários valores de uma mesma variável
+//isso deixa o código mais limpo e mais fácil de entender.
+
+
+/*  const statusPg = "aprovado" 
+
+ switch (statusPg) {
+    case "pendente":
+        console.log("Pagamento pendente.");
+        break;
+    case  "aprovado":    
+         console.log("Pagamento aprovado!");
+         break;
+    case  "recusado":
+         console.log("Pagamento recusado") ;
+         break;   
+    default:
+        console.log("Status inválido.")
+        break;
+ } */
+
+
+// uso da extrutura if com duas condições ao mesmo tempo,
+//combinadas com o operador lógico &&
+
+/*  const pontos = 90;
+ const vidas = 3;
+ 
+ if (pontos > 50 && vidas > 0) {
+    console.log("Próximo nível liberado!");
+ } else {
+    console.log("Não pode avaçar para o próximo nível.");
+ } */
+
+
+//uso de uma cadeia de operadores ternários para classificar 
+//o valor percentual da carga de uma bateria de celular
+
+/* const bateria = 81;
+
+const statusBateria = (bateria < 20) ? "Crítica" : (bateria <= 80) ? "Moderada"
+: ("Cheia")
+
+console.log(statusBateria) */
